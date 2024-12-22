@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Header Styles */
+h3 {
+    color: #333;
+}
+
+/* Unordered List Styling */
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul ul {
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+/* Description List Styling */
+dl {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: 4px solid #000;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

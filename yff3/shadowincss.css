@@ -1,0 +1,32 @@
+body{
+    margin:0px;
+} /* Fjerner marginen rundt body-elementet, så nettsiden tar opp hele skjermen uten tomrom rundt. */
+#h1{
+    font-size: 100px;/* Setter fontstørrelsen på elementet med ID "h1" til 100 piksler. */
+    text-shadow:10px 4px 5px rgb(0, 0, 255);/* Legger til en blå skygge på teksten med ID "h1". Skyggen er forskjøvet 10px til høyre, 4px ned og har en uskarphet på 5px. */
+    
+}
+#box1{
+    width: 100px;/* Setter bredden på elementet med ID "box1" til 100 piksler. */
+    height:100px;/* Setter høyden på elementet med ID "box1" til 100 piksler. */
+    background-color: rgb(213, 204, 204); /* Setter bakgrunnsfargen til en lys grå farge. */
+    box-shadow:3px 5px 10px rgb(34, 34, 34);/* Legger til en skygge med 3px til høyre, 5px ned og en uskarphet på 10px i en mørk grå farge. */
+}
+.box{
+    border: 5px solid; /* Setter en 5px solid kant rundt elementer med klassen "box". */
+    font-size:5em;/* Setter fontstørrelsen til 5 ganger normal størrelse for tekst i elementene med klassen "box". */
+    width:250px;/* Setter bredden på elementene med klassen "box" til 250 piksler. */
+    height:250px; /* Setter høyden på elementene med klassen "box" til 250 piksler. */
+}
+#box2{
+    background-color:red; /* Setter bakgrunnsfargen til elementet med ID "box2" til rød. */
+    margin-top:50px;/* Setter marginen øverst til 50 piksler. */
+    margin-bottom:50px;/* Setter marginen nederst til 50 piksler. */
+    margin-left:50px;/* Setter marginen til venstre til 50 piksler. */
+    margin-right:50px; /* Setter marginen til høyre til 50 piksler. */
+}
+
+#box3{
+    background-color:blue;/* Setter bakgrunnsfargen til elementet med ID "box3" til blå. */
+    margin-left:auto;/* Setter marginen til venstre til auto, som gjør at elementet blir sentrert horisontalt i tilgjengelig plass. */
+}

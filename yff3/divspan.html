@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><span style="background-color:blueviolet">This is a span title</span></h1>
+    <!-- Dette er en overskrift som inneholder en <span> med blåfiolett bakgrunn. 
+         <span> er en inline-container som brukes til å style spesifikke deler av teksten. -->
+         
+    <h1><div style="background-color:yellowgreen">This is a div title</div></h1>
+    <!-- Dette er en overskrift som inneholder en <div> med gulgrønn bakgrunn.
+         <div> er en blokk-container, så det bryter linjen automatisk, noe som ikke er vanlig praksis for bruk i overskrifter. -->
+         
+    <p><span style="background-color:blueviolet">This is span sentence</span> </p>
+    <!-- Dette er et avsnitt som inneholder en <span> med blåfiolett bakgrunn.
+         <span> er en inline-container og påvirker bare den delen av teksten der den er plassert. -->
+         
+    <p><div style="background-color:yellowgreen">This is div sentence</div> </p>
+    <!-- Dette er et avsnitt som inneholder en <div> med gulgrønn bakgrunn.
+         Å bruke <div> inne i et avsnitt er ikke anbefalt fordi <div> er en blokk-container og bryter linjen. -->
+         
+    <p>Lorem ipsum dolor sit<div style="background-color:yellowgreen"> Corporis ipsum non magni nobis</div></p>
+    <!-- Dette er et avsnitt som inneholder både tekst og en <div>. 
+         <div> bryter linjen fordi det er en blokk-container, så oppførselen kan se uventet ut. -->
+</body>
+</html>
+
+<!--
+<div> er en blokk-container som naturlig tar opp hele bredden tilgjengelig og bryter linjen automatisk.
+<span> er en inline-container som brukes til å style eller markere spesifikke deler av teksten uten å bryte linjen.
+-->
+
+</html>
+

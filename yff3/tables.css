@@ -1,0 +1,32 @@
+/* General Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black; /* Black background for the table */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: white; /* Text color for table data */
+}
+
+/* Header Row Styles */
+tr:first-child {
+    background-color: blue; /* Blue background for header row */
+}
+
+/* Data Row Styles */
+tr:nth-child(2) {
+    background-color: orange; /* Orange background for data row */
+}
+
+/* Column Widths */
+th, td {
+    width: 100px; /* Fixed width for each column */
+}
+
+/* Optional: Apply alternating row colors for future rows */
+tr:nth-child(odd) {
+    background-color: #333; /* Dark background for odd rows */
+}

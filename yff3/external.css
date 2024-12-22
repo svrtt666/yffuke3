@@ -1,0 +1,35 @@
+/* Setter bakgrunnsfargen på siden til svart */body{
+    background-color:black;
+}
+/* Stiler for overskriften, hvit tekstfarge */
+h1{
+  color:white;  
+}
+/* Stiler for avsnitt med ID 'p1', brun tekstfarge */
+#p1{
+    color:brown;
+}
+/* Stiler for avsnitt med ID 'p2', grønn tekstfarge */
+#p2{
+    color:green;
+}
+/* Stiler for avsnitt med ID 'p3', gul tekstfarge */
+#p3{
+    color:yellow;
+}
+/* Stiler for avsnitt med ID 'p4', marineblå tekstfarge */
+#p4{
+    color:navy;
+}
+/* Stiler for avsnitt med ID 'p5', fiolettblå tekstfarge */
+#p5{
+    color:blueviolet;
+}
+/* Stiler for elementer med klassen 'odd', sans-serif font */
+.odd{
+    font: 1em sans-serif;
+}
+/* Stiler for elementer med klassen 'even', fontstørrelse 30px */
+.even{
+    font-size: 30px;
+}
